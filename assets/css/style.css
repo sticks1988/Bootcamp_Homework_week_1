@@ -14,16 +14,16 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This header was reduced to one header class for all h1's*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Created a separated seo ID class for the color*/
 .seo {
     color: #d9dcd6;
 }
-
+/*header class for the links at the top of the page*/
 .headerlist {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Hero class is for all the height and widths with the origin of the URL for the background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -101,18 +101,18 @@ content {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*this ID has been combined with the others for the same perameters to reduce source code */
  .benefitsheader {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*This ID has been applied from all the classes with the same attributes to condense code*/
 .benefit-horizon {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*This ID allows the section to be positioned correctly within the page to appear appropriately*/
 .Control {
     margin-bottom: 20px;
     padding: 50px;
@@ -137,7 +137,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*ID has been created for the footer font size instead of a class to more pin point the functionality of the content*/
 .footy {
     font-size: 20px;
 }
